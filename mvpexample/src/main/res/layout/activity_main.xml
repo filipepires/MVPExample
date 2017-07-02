@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="filipe.pires.me.mvpexample.MainActivity">
+
+    <Button
+        android:id="@+id/button_action_one"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/grid_2x"
+        android:layout_marginLeft="@dimen/grid_2x"
+        android:layout_marginRight="@dimen/grid_2x"
+        android:maxHeight="@dimen/grid_4x"
+        android:minWidth="@dimen/grid_8x"
+        android:text="@string/action_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button_action_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/grid_2x"
+        android:layout_marginLeft="@dimen/grid_2x"
+        android:layout_marginRight="@dimen/grid_2x"
+        android:maxHeight="@dimen/grid_4x"
+        android:minWidth="@dimen/grid_8x"
+        android:text="@string/action_two"
+        app:layout_constraintBottom_toTopOf="@id/button_action_one"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/actionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/grid_2x"
+        android:layout_marginLeft="@dimen/grid_2x"
+        android:layout_marginRight="@dimen/grid_2x"
+        android:layout_marginTop="@dimen/grid_2x"
+        android:maxHeight="@dimen/grid_4x"
+        android:minWidth="@dimen/grid_8x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Action X" />
+
+</android.support.constraint.ConstraintLayout>

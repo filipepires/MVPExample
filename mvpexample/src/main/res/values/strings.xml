@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVPExample</string>
+    <string name="action_one">Action One</string>
+    <string name="action_two">Action Two</string>
+    <string name="action_one_text">Action one performed</string>
+    <string name="action_two_text">Action two performed</string>
+</resources>
